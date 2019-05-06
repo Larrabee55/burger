@@ -1,5 +1,8 @@
-// Import express
+var express = require("express");
 
-require("../models/burger")(ORMFunctions);
+var router = express.Router();
+
+var burger = require("../models/burger.js");
 
 // create a router and export it
+module.exports = router;
